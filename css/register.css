@@ -1,0 +1,707 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
+
+
+
+.bggray{background-color: gray;
+width: 100%;
+height: 145vh;
+}
+
+
+
+.blackhead{background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    
+    .button1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    
+    
+    .button2{width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    .button2 ul{display: flex;
+    }
+    
+    .button2 ul li{list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 5px;
+    }
+    
+    .button2 ul li a{text-decoration: none;
+    color: white;
+    position: relative;
+    transition: all .5s;
+    }
+    
+    .button2 ul li a:hover{color: red;
+    }
+    
+    
+    .button2 ul li a:hover::after{
+        content: "";
+        width: 100%;
+        background-color: rgb(238, 255, 0);
+        height: 2px;
+        position: absolute;
+        top: 130%;
+        left: 0%; 
+        
+    }
+    
+    .blackhead i{display: none;}
+    
+    .menubar{
+        display: none;
+    }
+    
+    
+    .whitehead{background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+    
+    .leftwhitehead{
+    display: flex;
+    }
+    
+    .logo{display: flex;
+    align-items: center;
+    padding-left: 1%;}
+    
+    .logo img{width: 120px;
+    
+    
+    }
+    
+    .mainname{display: flex;
+    align-items: center;
+    width:350px;
+    justify-content: center;
+    
+    }
+    
+    .name{
+    margin-left: 1%;}
+    
+    .name h5{color:rgb(70, 68, 68);
+    text-align: center;
+    font-size: 14px;
+    }
+    
+    .name h3{color: red;
+    margin-top:3px;
+    font-size: 20   px;
+    }
+    
+    .name h5{color:rgb(70, 68, 68);
+    text-align: center;
+    margin-top: 3px;}
+    
+    .rightwhitehead{width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    .rightwhitehead ul{display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
+    .rightwhitehead ul li{color: rgb(70, 68, 68);
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 3vh;
+        margin: 0px 5px;
+    
+    }
+    
+    .rightwhitehead ul li a{text-decoration: none;
+    color: rgb(70, 68, 68);
+    position: relative;
+    transition: all .5s;}
+    
+    .rightwhitehead ul li a:hover{color: rgb(255, 0, 0);
+    }
+    
+    
+    .rightwhitehead ul li a:hover::after{
+        content: "";
+        width: 100%;
+        background-color: rgb(238, 255, 0);
+        height: 2px;
+        position: absolute;
+        top: 130%;
+        left: 0%; 
+    }
+
+
+.bgimg{background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('../image/Lighthouse.jpg');
+background-size: 100% 100%;
+min-height:100vh;
+background-repeat: no-repeat;
+padding-top: 60px;
+display:flex;
+justify-content: center;
+padding-bottom: 60px;
+}
+
+.mainregister{width: 65%;
+height: 650px;
+background-color: white;
+border-radius: 7px;
+padding-top: 30px;
+
+}
+
+
+.Registername{text-align: center;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 23px;
+}
+
+
+
+.column{width: 90%;
+display: flex;
+margin: auto;
+}
+
+
+
+.column1{width: 50%;}
+
+
+.fullname{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 45px;
+font-weight: bold;}
+
+.enterfullname{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+font-weight: bold;
+
+}      
+
+.enterfullname input{width:100%;
+height: 30px;
+padding-left: 10px;
+
+}
+
+.email{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 20px;
+font-weight: bold;
+}
+
+.enteremail{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+
+.enteremail input{width:100%;
+height: 30px;
+padding-left: 10px;
+
+}
+
+.password{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 20px;
+font-weight: bold;
+}
+
+.enterpassword{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+
+.enterpassword input{width:100%;
+height: 30px;
+padding-left: 10px;
+}
+
+
+.column2{width: 50%;
+margin-left: 30px;}
+
+
+.username{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.enterusername{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+.enterusername input{width:100%;
+height: 30px;
+padding-left: 10px;
+
+}
+
+.phoneno{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 20px;
+font-weight: bold;}
+
+.enterphone{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+
+.enterphone input{width:100%;
+height: 30px;
+padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+.confirm{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 45px;
+
+font-weight: bold;
+}
+
+.enterconfirm{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 10px;
+
+font-weight: bold;
+
+}
+
+
+.enterconfirm input{width:100%;
+height: 30px;
+padding-left: 10px;
+}
+
+.gender{font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 90%;
+margin: auto;
+margin-top: 20px;
+}
+
+.maingender{display: flex;
+flex-wrap: wrap;
+width: 90%;
+margin: auto;}
+
+
+.male{width: 10px;
+margin-top: 20px;
+
+}
+
+
+#male{font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 21px;
+margin-left: 10px;
+font-weight: bold;}
+
+.female{width: 10px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#female{font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 21px;
+margin-left: 10px;
+font-weight: bold;}
+
+
+.nottosay{width: 10px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#nottosay{font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-top: 21px;
+margin-left: 10px;
+font-weight: bold;
+}
+
+
+
+
+.mainregisterbtn{display: flex;
+justify-content: center;
+margin-top: 20px;}
+
+
+
+
+
+
+.mainregisterbtn a{text-decoration: none;
+
+}
+
+.mainregisterbtn a button{
+background-color:darkblue;
+border: 1px solid darkblue;
+width:100px;
+height: 36px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: white;
+transition: .2s;
+}
+
+.mainregisterbtn a button:hover{box-sizing:border-box;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255);
+border: 1px solid black;
+cursor: pointer;
+
+}
+
+
+
+.socialimg{display: flex;
+justify-content: center;
+margin-top: 10px;}
+
+
+.usingsocial1{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 11px;
+text-align: center;
+color: darkslategray;
+font-weight: bold;
+margin-top: 20px;
+}
+
+
+
+.loginsocialicon{margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.loginsocialicon ul{display: flex;} 
+
+.loginsocialicon ul li{list-style: none;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(228, 0, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0px 5px;}
+
+.loginsocialicon ul li a{text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px; 
+
+
+
+}
+
+.loginsocialicon ul li:first-child{background-color:rgb(41, 0, 155);}
+
+.loginsocialicon ul li:last-child{background-color:rgb(0, 174, 255);}
+
+.usingsocial2{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 11px;
+text-align: center;
+color: darkslategray;
+font-weight: bold;
+margin-top: 30px;
+}
+
+
+.signin{font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-align: center;
+font-weight: bold;
+margin-top: 20px;}
+
+.signin a{text-decoration: none;
+color: black;
+}
+
+.signin a:hover{color: red;}
+
+
+
+
+/* -----tablet screen-----*/
+
+@media screen and (min-width:655px) and (max-width:965px){
+
+    .blackhead{
+        height: 50px;
+    }
+
+    .button2 ul{
+        display: none;
+    }
+
+    .button1{
+        font-size: 11px;
+    }
+
+    .blackhead i{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .whitehead{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        padding-left: 10px;
+    }
+
+    .logo img{
+        width: 105px;
+    }
+
+    .mainname{
+        flex-basis: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name h5{
+        
+        font-size: 14spx;
+    }
+
+    .name h3{
+        font-size: 20px;
+    }
+
+    .rightwhitehead{
+        display: none;
+    }
+
+    .leftwhitehead{
+        width: 100%;
+        display: flex;   
+    }
+
+    .bgimg{
+        height: 900px;
+    }
+
+    
+
+    .mainregister {
+        width: 75%;
+        height: 640px;
+    }
+
+    
+
+    .usingsocial2{
+        margin-top: 26px;
+    }
+
+    .signup{margin-top: 15px;}
+}
+
+
+
+
+/* -----Mobile screen-----*/
+
+
+@media screen and (max-width:654px){
+
+    .blackhead{
+        height: 45px;
+        position: relative;
+    }
+
+    .button2 ul{
+        display: none;
+    }
+
+    .button1{
+        font-size: 11px;
+    }
+
+    .blackhead i{
+        display: flex;
+        color: white;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .blackhead i:hover{
+        animation: menubar 4s ease-in-out forwards;
+    }
+
+    .whitehead{
+        height: 77px;
+        display: flex;
+        
+    }
+
+    .logo{
+        padding-left: 5px;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .mainname{
+        padding-left: 5px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .name h5{
+        
+        font-size: 10px;
+    }
+
+    .name h3{
+        font-size: 14px;
+    }
+
+    .rightwhitehead{
+        display: none;
+    }
+
+    .leftwhitehead{
+        width: 100%;
+        display: flex;   
+    }
+
+    .bgimg{
+        height: 1010px;
+    }
+
+    .mainregister {
+        width: 88%;
+        height: 880px;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .column1{width: 100%;}
+
+    .column2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .username{margin-top: 15px;}
+
+    .confirm{margin-top: 20px;}
+}
+
+
+@media screen and (max-width:340px){
+
+    .blackhead{
+        height: 40px;
+    }
+
+    .button1{
+        font-size: 10px;
+    }
+
+    .logo img{
+        width: 65px;
+    }
+
+    #male{
+        font-size: 11px;
+    }
+
+    .female{
+        margin-left: 13px;
+    }
+
+    #female{
+        font-size: 11px;
+    }
+
+    .nottosay{
+        margin-left: 13px;
+    }
+
+    #nottosay{
+        font-size: 11px;
+    }
+
+
+
+}
